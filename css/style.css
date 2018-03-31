@@ -1,0 +1,332 @@
+@font-face {
+  font-family: 'Aleo Bold';
+  src: url("../fonts/aleo-bold-webfont.eot");
+  src: url("../fonts/aleo-bold-webfont.woff2") format("woff2"), url("../fonts/aleo-bold-webfont.woff") format("woff"), url("../fonts/aleo-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Aleo Regular';
+  src: url("../fonts/aleo-regular-webfont.eot");
+  src: url("../fonts/aleo-regular-webfont.woff2") format("woff2"), url("../fonts/aleo-regular-webfont.woff") format("woff"), url("../fonts/aleo-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+
+  * {
+    box-sizing: border-box; }
+
+  body {
+    background-color: #232323;
+    height: 100%;
+    color: #fff;
+    font: 300 14px "Josefin Sans", sans-serif; }
+
+    .header {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      background-color: #5474fd; }
+      .header .container {
+        padding: 20px 0 15px; }
+
+.container {
+min-width: 1024px;
+max-width: 1110px;
+width: 96%;
+margin: 0 auto; }
+
+.logo {
+vertical-align: middle;
+display: inline-block;
+transition: opacity .25s ease;
+width: 200px;
+max-height: 48px;
+font: 700 24px/1 "Josefin Sans", sans-serif;
+color: #fff;
+letter-spacing: 3px;
+text-transform: uppercase;
+            text-decoration: none;
+            overflow: hidden; }
+            .logo:hover, .logo:focus, .logo:active {
+              opacity: .7; }
+
+
+
+ nav {
+ display: inline-block;
+  width: calc(100% - 205px); }
+ nav .menu {
+  margin: 0;
+ padding: 0;
+  text-align: right; }
+ nav .menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 120px;
+  max-height: 48px;
+  overflow: hidden; }
+ nav .menu__item a {
+ text-decoration: none;
+   text-transform: uppercase;
+   color: #fff;
+ font: 400 14px/1.8 "Aleo Regular", sans-serif;
+ padding-top: 10px;
+ transition: opacity .25s ease; }
+  nav .menu__item a:hover, nav .menu__item a:focus, nav .menu__item a:active {
+  opacity: .7; }
+ nav .menu__item:not(:first-of-type) {
+   margin-left: 35px; }
+
+   .section--heading {
+     background-image: url("../img/header.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     min-height: 100vh;
+     position: relative; }
+
+.section--heading .container {
+ height: 100vh;
+padding: 15% 0; }
+.section--choose {
+ background-image: url("../img/choose.jpg");
+ background-repeat: no-repeat;
+ background-position: center; }
+ .section--choose .container {
+ height: 100%;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+padding: 100px 0; }
+
+.section--icons .container {
+  background-image: url("../img/shape.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 120px 30px;
+  background-size: 77%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 100px 0 100px; }
+
+  .section--house {
+    background-image: url("../img/spain.jpg");
+    background-repeat: no-repeat;
+    background-position: center; }
+
+.section--house .container {
+height: 100%;
+padding: 100px 0;
+display: flex;
+justify-content: flex-start; }
+
+.section--mountin {
+ background-image: url("../img/spain2.jpg");
+background-repeat: no-repeat;
+background-position: center; }
+.section--mountin .container {
+height: 100%;
+padding: 100px 0;
+display: flex;
+justify-content: flex-end; }
+
+.section--turist {
+  background-image: url("../img/turist_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center; }
+  .section--turist .container {
+    height: 100%;
+    padding: 100px 0; }
+
+.section__grey {
+background-color: #232323;
+opacity: .9;
+padding: 50px 30px;
+max-width: 49%;
+min-width: 49%; }
+.section__title {
+font: 700 24px/1 "Josefin Sans", sans-serif;
+font-size: 48px;
+letter-spacing: 3px;
+text-align: center;
+margin: 0;
+max-height: 94px;
+overflow: hidden; }
+
+
+.section__subtitle {
+font-size: 22px;
+font-weight: 300;
+letter-spacing: 5px;
+text-align: center;
+margin: 20px 0 50px;
+max-height: 44px;
+overflow: hidden; }
+
+.section__anchor {
+margin-top: 100px;
+display: block;
+text-decoration: none;
+color: #fff;
+letter-spacing: 2px;
+text-align: center; }
+.section__anchor svg:hover, .section__anchor svg:focus, .section__anchor svg:active {
+ opacity: .7; }
+
+
+.section__mintitle {
+ font: 400 14px/1.8 "Aleo Regular", sans-serif;
+ font-size: 36px;
+margin-top: 50px;
+max-height: 60px;
+overflow: hidden; }
+.section__mintitle--center {
+ text-align: center;
+min-width: 250px; }
+.section__mintitle--turist {
+margin-top: 0; }
+
+.section__text {
+  line-height: 1.7;
+  margin-bottom: 50px;
+  max-height: 150px;
+  overflow: hidden;
+  position: relative; }
+  .section__text i {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    color: #5474fd; }
+
+
+.section__speach .section__text p:first-of-type {
+    text-indent: 20px; }
+  .section--house .section__text {
+    max-width: 100%; }
+  .section--choose .section__text {
+    max-width: 420px; }
+  .section__text p {
+    margin: 20px 0; }
+  .section__text--title {
+    max-height: 80px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.3; }
+  .section__text--upp {
+    text-transform: uppercase; }
+  .section--turist .section__text {
+    max-width: 570px;
+    max-height: 135px; }
+
+
+    .section__img {
+      min-width: 500px; }
+      .section__img .right {
+        text-align: right; }
+    .section__icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .section__circle {
+      border-radius: 50%;
+      background-color: #232323;
+      width: 80px;
+      height: 80px;
+      position: relative; }
+      .section__circle svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+
+
+.section__wrap div .slide {
+  display: flex;
+  min-width: 100%;
+  height: 370px; }
+  .section__wrap div .slide .left {
+    width: 40%; }
+  .section__wrap div .slide:focus {
+    outline: none; }
+.section__speach {
+  padding: 35px 45px;
+  background-color: #232323;
+  max-height: 283px;
+  width: 60%; }
+  .section__speach .section__text {
+    max-width: 540px; }
+
+  .form {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+
+    .form__input {
+      height: 56px;
+      font: 300 14px "Josefin Sans", sans-serif;
+      font-size: 14px;
+      color: #232323;
+      letter-spacing: 1px;
+      min-width: 500px;
+      text-align: center;
+      border: 1px solid #fff;
+      vertical-align: middle;
+      text-overflow: ellipsis;
+      display: inline-block;
+      transition: all .25s ease; }
+      .form__input:focus::placeholder {
+        color: transparent; }
+
+.btn {
+  background-color: #5474fd;
+  border: 1px solid #fff;
+  height: 60px;
+  font: 400 14px/1.8 "Aleo Regular", sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 0 35px;
+  transition: all .25s ease;
+  line-height: 60px; }
+  .btn span {
+    display: inline-block;
+    vertical-align: middle; }
+  .btn--expl {
+    text-decoration: none;
+    color: #fff;
+    border-color: #5474fd; }
+
+
+    .footer .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      padding: 100px 0 50px; }
+    .footer .logo {
+      display: block;
+      text-align: center;
+      margin-bottom: 15px; }
+    .footer__text {
+      font-size: 16px;
+      letter-spacing: 1px; }
+    .footer__nets {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      margin-top: 30px; }
+    .footer__net {
+      display: inline-block;
+      vertical-align: middle; }
+      .footer__net a {
+        transition: color .25s ease;
+        color: #fff; }
+
