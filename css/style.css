@@ -52,8 +52,6 @@ text-transform: uppercase;
             .logo:hover, .logo:focus, .logo:active {
               opacity: .7; }
 
-
-
  nav {
  display: inline-block;
   width: calc(100% - 205px); }
@@ -74,10 +72,6 @@ text-transform: uppercase;
  font: 400 14px/1.8 "Aleo Regular", sans-serif;
  padding-top: 10px;
  transition: opacity .25s ease; }
-  nav .menu__item a:hover, nav .menu__item a:focus, nav .menu__item a:active {
-  opacity: .7; }
- nav .menu__item:not(:first-of-type) {
-   margin-left: 35px; }
 
    .section--heading {
      background-image: url("../img/header.jpg");
@@ -99,18 +93,6 @@ display: flex;
 justify-content: space-between;
 flex-direction: row;
 padding: 100px 0; }
-
-.section--icons .container {
-  background-image: url("../img/shape.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position: 120px 30px;
-  background-size: 77%;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  padding: 100px 0 100px; }
 
   .section--house {
     background-image: url("../img/spain.jpg");
@@ -173,9 +155,6 @@ text-decoration: none;
 color: #fff;
 letter-spacing: 2px;
 text-align: center; }
-.section__anchor svg:hover, .section__anchor svg:focus, .section__anchor svg:active {
- opacity: .7; }
-
 
 .section__mintitle {
  font: 400 14px/1.8 "Aleo Regular", sans-serif;
@@ -201,15 +180,6 @@ margin-top: 0; }
     left: 0;
     color: #5474fd; }
 
-
-.section__speach .section__text p:first-of-type {
-    text-indent: 20px; }
-  .section--house .section__text {
-    max-width: 100%; }
-  .section--choose .section__text {
-    max-width: 420px; }
-  .section__text p {
-    margin: 20px 0; }
   .section__text--title {
     max-height: 80px;
     margin-bottom: 30px;
@@ -220,7 +190,6 @@ margin-top: 0; }
   .section--turist .section__text {
     max-width: 570px;
     max-height: 135px; }
-
 
     .section__img {
       min-width: 500px; }
@@ -241,7 +210,6 @@ margin-top: 0; }
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%); }
-
 
 .section__wrap div .slide {
   display: flex;
@@ -281,28 +249,6 @@ margin-top: 0; }
       transition: all .25s ease; }
       .form__input:focus::placeholder {
         color: transparent; }
-
-.btn {
-  background-color: #5474fd;
-  border: 1px solid #fff;
-  height: 60px;
-  font: 400 14px/1.8 "Aleo Regular", sans-serif;
-  letter-spacing: 2px;
-  text-align: center;
-  text-transform: uppercase;
-  vertical-align: middle;
-  display: inline-block;
-  padding: 0 35px;
-  transition: all .25s ease;
-  line-height: 60px; }
-  .btn span {
-    display: inline-block;
-    vertical-align: middle; }
-  .btn--expl {
-    text-decoration: none;
-    color: #fff;
-    border-color: #5474fd; }
-
 
     .footer .container {
       display: flex;
